@@ -1,0 +1,22 @@
+name: Python Flask test with Github Actions
+
+on:
+  push:
+    branches: [ "main" ]
+#   pull_request:
+#     branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Install
+        run: make install
+      - name: Lint
+        run: make lint
+      - name: test
+        run: make test
+      - name: format
+        run: make format
