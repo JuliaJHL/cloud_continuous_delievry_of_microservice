@@ -9,4 +9,5 @@ format:
 	black *.py
 
 lint:
-	pylint --disable=R,C app.py
+	pylint --disable=R,C app.py test_app.py
+
