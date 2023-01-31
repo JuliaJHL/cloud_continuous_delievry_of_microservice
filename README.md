@@ -3,11 +3,7 @@
 * Create a Guess Number game in Flask.
 * Apply GitHub Actions as build system to deploy changes.
 ![actions](https://github.com/JuliaJHL/imgs_readme/blob/main/actions.png)
-* Use IaC to deploy code on AWS Cloud9 (also tried AWS Elastic BeansTalk).
-![cloud9](https://github.com/JuliaJHL/imgs_readme/blob/main/cloud9.png)
-![one](https://github.com/JuliaJHL/imgs_readme/blob/main/one.png)
-![benas](https://github.com/JuliaJHL/imgs_readme/blob/main/beans.png)
-![all](https://github.com/JuliaJHL/imgs_readme/blob/main/all.png)
+* Use IaC to deploy code on AWS (in week 3)
 
 ## project setup
 1. Clone the repo:
@@ -33,8 +29,12 @@ python app.py
 ```
 
 ## Examples
-You will get the login page after you run the `app.py`.
-![login](https://github.com/JuliaJHL/imgs_readme/blob/main/enter.png)
-The username is `IDS721` and the password is `DUKE2023`. You will receive a successful login after entering the correct username and password. Otherwise, you will receive a login failure.
-![success](https://github.com/JuliaJHL/imgs_readme/blob/main/success.png)
-![fail](https://github.com/JuliaJHL/imgs_readme/blob/main/fail.png)
+You will get this page after you run the `app.py`.
+![login](https://github.com/JuliaJHL/imgs_readme/blob/main/ids721proj1/login.png)
+It will prompt invalid once you enter a integer over 100.
+![invalid](https://github.com/JuliaJHL/imgs_readme/blob/main/ids721proj1/valid.png)
+You only have a total of 10 chances to guess the number. Wrong guesses, failures and successes will have corresponding pop-ups.
+![big](https://github.com/JuliaJHL/imgs_readme/blob/main/ids721proj1/too%20large.png)
+![small](https://github.com/JuliaJHL/imgs_readme/blob/main/ids721proj1/small.png)
+![lose](https://github.com/JuliaJHL/imgs_readme/blob/main/ids721proj1/lose.png)
+![win](https://github.com/JuliaJHL/imgs_readme/blob/main/ids721proj1/win.png)
