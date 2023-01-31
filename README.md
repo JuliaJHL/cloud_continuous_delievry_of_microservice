@@ -1,6 +1,6 @@
 # IDS721Proj1-cloud_continuous_delievry_of_microservice
 ## project content
-* Create a simple login interface in Flask.
+* Create a Guess Number game in Flask.
 * Apply GitHub Actions as build system to deploy changes.
 ![actions](https://github.com/JuliaJHL/imgs_readme/blob/main/actions.png)
 * Use IaC to deploy code on AWS Cloud9 (also tried AWS Elastic BeansTalk).
