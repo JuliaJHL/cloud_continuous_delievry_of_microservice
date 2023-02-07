@@ -1,4 +1,7 @@
-# IDS721Proj1-cloud_continuous_delievry_of_microservice
+# IDS721Proj1-week1-2
+# The final version of Project1 is in this repo (https://github.com/JuliaJHL/IDS721-Proj1-flask)
+
+
 ## project content
 * Create a Guess Number game in Flask.
 * Apply GitHub Actions as build system to deploy changes.
